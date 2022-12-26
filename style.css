@@ -1,0 +1,230 @@
+
+@font-face {
+    font-family: "Scream Real";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 200px;
+    color: orange;
+    padding-top: 100px;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Scream Real"),
+    url("fonts/scream_real.ttf") format("ttf"),
+}
+.logos {
+    font-family: "All Yoko";
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 40px;
+    color: rgb(255,189,0);
+    padding-top: 100px;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("All Yoko"),
+    url("fonts/all_yoko.ttf") format("ttf"),
+}
+
+.textt {
+    font-family: "Pobeda Bold";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    color: orange;
+    text-decoration: none;
+    padding-top: 100px;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Pobeda Bold"),
+    url("fonts/pobeda_bold.ttf") format("ttf"),
+}
+.text1 {
+    font-family: "Pobeda Bold";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Pobeda Bold"),
+    url("fonts/pobeda_bold.ttf") format("ttf"),
+}
+.textt2 {
+    font-family: "Pobeda Bold";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+    
+
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Pobeda Bold"),
+    url("fonts/pobeda_bold.ttf") format("ttf"),
+}
+.form2 {
+    position: relative;
+    width: 30px;
+    margin: 0 auto;
+  }
+  input, button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+  }
+  input {
+    width: 15%;
+    height: 42px;
+    background: #ffffff;
+    padding-left: 15px;
+  }
+  button {
+    height: 40px;
+    width: 70px;
+    position: static;
+    top: 8px;
+    right: 8px;
+    background: rgb(212, 8, 117);
+    cursor: pointer;
+    
+  }
+  .rollover1 {
+    background: url(1.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 292px; 
+    height: 295px;
+  }
+  .rollover1:hover {
+    background: url(1-1.jpg);
+    width: 292px; 
+    height: 290px;
+   }
+   .rollover2 {
+    background: url(2.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover2:hover {
+    background: url(2-2.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover3 {
+    background: url(3.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 292px; 
+    height: 295px;
+  }
+  .rollover3:hover {
+    background: url(3-3.jpg);
+    width: 292px; 
+    height: 290px;
+   }
+   .rollover4 {
+    background: url(4.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover4:hover {
+    background: url(4-4.jpg);
+    width: 290px; 
+    height: 290px;
+   }
+   .rollover5 {
+    background: url(5.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 292px; 
+    height: 295px;
+  }
+  .rollover5:hover {
+    background: url(5-5.jpg);
+    width: 292px; 
+    height: 290px;
+   }
+   .rollover6 {
+    background: url(6.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 292px; 
+    height: 295px;
+  }
+  .rollover6:hover {
+    background: url(6-6.jpg);
+    width: 292px; 
+    height: 290px;
+   }
+   .rollover7 {
+    background: url(7.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover7:hover {
+    background: url(7-7.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover8 {
+    background: url(8.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover8:hover {
+    background: url(8-8.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover9 {
+    background: url(9.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover9:hover {
+    background: url(9-9.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover10 {
+    background: url(10.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover10:hover {
+    background: url(10-10.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover11 {
+    background: url(11.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover11:hover {
+    background: url(11-11.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover12 {
+    background: url(12.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover12:hover {
+    background: url(12-12.jpg);
+    width: 291px; 
+    height: 290px;
+   }
+   .rollover13 {
+    background: url(13.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 291px; 
+    height: 295px;
+  }
+  .rollover13:hover {
+    background: url(13-13.jpg);
+    width: 291px; 
+    height: 290px;
+   }
